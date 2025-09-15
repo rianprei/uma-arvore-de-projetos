@@ -8,6 +8,7 @@ import Logando from "./Logando.jsx";
 import Acesso from "./acesso.jsx";
 import Ferramentas from "./Ferramentas.jsx";
 import Oquesomos from "./oquesomos.jsx";
+import UseState from "./UseState.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
@@ -41,6 +42,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route
           path="/oquesomos"
           element={<Oquesomos />}
+        />
+        <Route
+        path="/usestate"
+          element={<UseState />}
         />
       </Routes>
     </BrowserRouter>

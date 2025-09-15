@@ -50,7 +50,7 @@ function App() {
     registrar("%1", novo);
   };
 
-  const valor6 = () => {
+  const valorAC = () => {
     setAmendoin(0);
     registrar("AC", 0);
   };
@@ -79,7 +79,7 @@ function App() {
 
   return (
     <div className="bg-gradient-to-br from-[#0f172a] via-[#1e1b4b] to-[#000] flex justify-center items-center min-h-screen text-blue-400">
-      <div className="shadow-2xl space-y-4 w-96 mt-4 h-auto rounded-xl border border-blue-400 p-10 bg-gray-900/40 text-center">
+      <div className="shadow-[0_0_20px_#0004ff] space-y-4 w-96 mt-4 h-auto rounded-xl border border-blue-400 p-10 bg-gray-900/40 text-center">
         <p className="font-extrabold">
           Contador Neon PRO MAX PREMIUN SUPER ULTRA MEGA PLUS
         </p>
@@ -133,7 +133,7 @@ function App() {
             🎲
           </button>
           <button
-            onClick={valor6}
+            onClick={valorAC}
             className="bg-gradient-to-br from-[#310707] via-[#ff0000] to-[#3a0303] border border-red-400 text-white hover:bg-red-800 font-extrabold w-12 h-12 rounded-lg">
             AC
           </button>
@@ -217,12 +217,12 @@ function App() {
             ))
           )}
         </div>
-        <p className="text-white italic underline font-black ">
+        <p className="text-white italic font-extrabold underline leading-relaxed tracking-wide ">
           Coded by Rian.
         </p>
         <div className="mt-6">
           <Link to="/outra">
-            <button className="bg-gradient-to-br rounded-lg from-[#010016] via-[#030030] to-[#030014] border border-blue-950 px-4 py-2 hover:bg-green-600 transition">
+            <button className="bg-gradient-to-br font-bold rounded-lg from-[#010016] via-[#030030] to-[#030014] border border-blue-950 px-4 py-2 hover:bg-green-600 transition">
               Meus outros projetos➡️.
             </button>
           </Link>
